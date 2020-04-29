@@ -11,6 +11,7 @@ namespace aspnet_core_dotnet_core
     {
         public static void Main(string[] args)
         {
+            #added some comment for pull request test 
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
